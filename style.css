@@ -1,0 +1,594 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(108, 104, 112);
+
+}
+
+h1.H {
+    color: rgb(0, 0, 0);
+    margin-left: 100px;
+}
+
+.navbar {
+
+
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: antiquewhite;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -10px;
+
+}
+
+ul {
+    margin-top: 50px;
+    margin-right: 200px;
+
+}
+
+ul li {
+    display: inline;
+    padding: 5px 16px;
+    border: none;
+    border-radius: 10px;
+    text-shadow: 10px;
+
+
+
+}
+
+ul li a {
+    font-weight: bolder;
+    text-decoration: none;
+    transition: .4s ease;
+    color: brown;
+}
+
+
+ul li a:hover {
+    color: rgb(21, 20, 20);
+}
+
+nav {
+    background-color: rgb(27, 78, 78);
+    margin: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+img {
+    display: inline;
+    border: 1px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 500px;
+    height: 400px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    border-radius: 150px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+h1 {
+    color: black;
+
+
+
+}
+
+p1 {
+    font-size: large;
+    color: rgb(163, 103, 66);
+}
+
+nav ul li a {
+    color: whitesmoke;
+    font-size: x-large;
+    padding: 5px;
+    text-decoration: dotted;
+    margin-top: auto;
+    margin: 0 23px;
+    border-radius: 50px;
+    background-color: rgb(2, 62, 62);
+
+
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+
+.thirdprt {
+    background-color: rgb(27,78,78);
+    margin: -10px;
+    margin-top: -20px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+.left {
+    flex-basis: 35%;
+
+}
+
+.left img {
+    width: 90%;
+
+}
+
+.right {
+    flex-basis: 50%;
+
+}
+
+.sub {
+    font-size: 60px;
+    font-weight: 600px;
+
+}
+
+.tabs {
+    display: flex;
+    margin: 20px 0 40px;
+
+}
+
+.A {
+    margin-right: 300px;
+    font-size: 20px;
+    font-weight: 500;
+    font: bold;
+    position: relative;
+    border-bottom: dotted;
+    border-bottom-color: rgb(220, 177, 205);
+}
+
+.edu {
+    display: flex;
+
+
+
+
+}
+
+.B {
+    margin-right: 130px;
+    font-size: 20px;
+    font-weight: 500;
+    font: bold;
+    margin-top: -30px;
+    margin-left: -45px;
+}
+
+.C {
+    margin-left: 90px;
+    margin-top: -30px;
+
+
+}
+
+.F {
+    color: red;
+}
+
+.D {
+    font-size: smaller;
+    color: black;
+    margin-top: -2px;
+}
+
+.E {
+    color: none;
+
+}
+
+
+
+
+.forth {
+    background-color: rgb(156, 153, 148);
+    margin: -10px;
+}
+
+
+.Skil {
+    margin-left: 700px;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+.Skills {
+    width: 600px;
+    padding: 85px 90px;
+    margin-left: 120px;
+}
+
+.heading {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    margin-bottom: 50px;
+    font-size: x-large;
+}
+
+.bars {
+    font-size: 20px;
+
+}
+
+.Tech-bars .bars {
+    margin-top: 40px 0;
+}
+
+.Tech-bars .bars:first-child {
+    margin-top: 0;
+}
+
+.Tech-bars .bars:last-child {
+    margin-bottom: 0;
+}
+
+.Tech-bars .bars .info {
+    margin-bottom: 5px;
+
+}
+
+.Tech-bars .bars .info span {
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 1;
+}
+
+.Tech-bars .bars .progress-line {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    animation: animate is cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(1);
+
+    transform-origin: left;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(0);
+    }
+}
+
+.Tech-bars .bars .progress-line span {
+    height: 100%;
+    background-color: rgb(46, 106, 106);
+    position: absolute;
+    border-radius: 10px;
+    animation: animate is cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.progress-line.html span {
+    width: 90%;
+
+}
+
+.progress-line.css span {
+    width: 95%;
+
+}
+
+.progress-line.js span {
+    width: 70%;
+
+}
+
+.progress-line.java span {
+    width: 80%;
+
+}
+
+.progress-line.sql span {
+    width: 85%;
+
+}
+
+.progress-line span::after {
+    position: absolute;
+    padding: 1px 8px;
+    background-color: black;
+    color: azure;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -20px;
+    right: -20px;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+
+}
+
+.progress-line.html span::after {
+    content: 90%;
+}
+
+.progress-line.css span::after {
+    content: 95%;
+}
+
+.progress-line.js span::after {
+    content: 80%;
+}
+
+.progress-line.java span::after {
+    content: 70%;
+}
+
+.progress-line.sql span::after {
+    content: 90%;
+}
+
+.progress-line.html span::before {
+    content: "90%";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: black;
+    top: -28px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progress-line.css span::before {
+    content: "95%";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: black;
+    top: -28px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progress-line.js span::before {
+    content: "70%";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: black;
+    top: -28px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progress-line.java span::before {
+    content: "80%";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: black;
+    top: -28px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progress-line.sql span::before {
+    content: "85%";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: black;
+    top: -28px;
+    right: 0;
+    animation: showText 0.5s 1.5s linear forwards;
+    opacity: 0;
+}
+
+@keyframes showText {
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slideRight {
+    0% {
+        transform: translate(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+.Contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 30px;
+    margin-top: 130px;
+    margin-right: 350px;
+}
+.contact-txt h9{
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+
+}
+.contact-txt h9 span{
+    color: rgb(107, 171, 171);
+}
+.contact-txt h10{
+    margin: 15px 0;
+    color:antiquewhite ;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.contact-txt p{
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.contact-list{
+    margin-bottom: 3rem;
+
+}
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list i{
+    display: inline-block;
+    color: aquamarine;
+    font-weight: 600;
+    transition: all .40s ease;
+
+}
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: aqua;
+}
+.contact-icons i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid blue;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aquamarine;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideleft 1s ease forwards;
+    animation-delay: calc(.2s*var(--i));
+}
+.contact-icons i:hover{
+    background: blueviolet;
+    color: black;
+    box-shadow: 0 0 20px blueviolet;
+}
+.contact-form form{
+    position: relative;   
+    display:grid;
+}
+.contact-form input.action textarea{
+    width: 90%;
+    padding: 18px;
+    background-color: #555557;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 20rem;
+    border-radius: 10px;
+    
+
+}
+.contact-form textarea{
+   height: 220px;    
+   background-color:#a2a09f;
+}
+.contact-form input{
+    background-color:#a2a09f;
+    margin-bottom: 2px;
+    border-radius: 10px;
+
+}
+.contact-form form .send{
+    display: inline-block;
+    padding: 14px 60px;
+    background-color:cyan;
+    border-radius: 40px;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    opacity: 1;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s ;
+    box-shadow: 0 0 5px;
+}
+.contact-form form .send:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+
+}
+.contact-icons img{
+    size-adjust: 5px 5px;
+}
